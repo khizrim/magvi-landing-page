@@ -1,3 +1,10 @@
 .shorts__preview {
   min-width: 261px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .shorts__preview:hover {
+    opacity: 0.7;
+  }
 }
