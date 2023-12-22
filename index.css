@@ -72,10 +72,18 @@
 @import url("./blocks/warning-popup/__title/warning-popup__title.css");
 @import url("./blocks/warning-popup/__description/warning-popup__description.css");
 
+/* YouTube Popup Container */
+@import url("./blocks/youtube-popup/youtube-popup.css");
+@import url("./blocks/youtube-popup/_visible/youtube-popup_visible.css");
+@import url("./blocks/youtube-popup/__content/youtube-popup__content.css");
+@import url("./blocks/youtube-popup/__close/youtube-popup__close-btn.css");
+@import url("./blocks/youtube-popup/__frame/youtube-popup__frame.css");
+
+
 /* Arrow Link */
 @import url("./blocks/arrow-link/arrow-link.css");
 
 /* Buttons */
 @import url("./blocks/button/button.css");
 @import url("./blocks/button/_primary/button_primary.css");
-@import url("./blocks/button/_secondary/button_secondary.css");
+@import url("./blocks/button/_secondary/button_secondary.css");s

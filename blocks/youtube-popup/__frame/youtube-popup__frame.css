@@ -1,0 +1,11 @@
+.youtube-popup__frame {
+  width: 315px;
+  height: 560px;
+}
+
+@media screen and (min-width: 1192px) {
+  .youtube-popup__frame {
+    width: 472px;
+    height: 840px;
+  }
+}
