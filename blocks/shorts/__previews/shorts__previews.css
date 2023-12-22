@@ -1,0 +1,14 @@
+.shorts__previews {
+  display: grid;
+  overflow: scroll;
+  margin-bottom: 40px;
+  max-width: 100%;
+
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.shorts__previews::-webkit-scrollbar {
+  display: none;
+}

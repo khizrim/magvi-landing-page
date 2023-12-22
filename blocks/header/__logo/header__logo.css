@@ -1,0 +1,8 @@
+.header__logo {
+  display: flex;
+  color: var(--color-black);
+}
+
+.header__logo > svg {
+  width: 52px;
+}

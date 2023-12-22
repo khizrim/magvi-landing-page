@@ -1,0 +1,5 @@
+.feature__description {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font: var(--font-body);
+}

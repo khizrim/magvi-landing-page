@@ -1,0 +1,13 @@
+.masthead__media {
+  display: none;
+}
+
+@media screen and (min-width: 1192px) {
+  .masthead__media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    gap: 20px;
+  }
+}

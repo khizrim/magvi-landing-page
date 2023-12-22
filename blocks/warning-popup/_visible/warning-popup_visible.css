@@ -1,0 +1,9 @@
+.warning-popup_visible {
+  display: flex;
+}
+
+@media screen and (min-width: 1192px) {
+  .warning-popup_visible {
+    display: none;
+  }
+}

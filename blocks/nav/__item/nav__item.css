@@ -1,0 +1,10 @@
+.nav__item {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 760px) {
+  .nav__item {
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,17 @@
+.steps__image-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  max-width: 90%;
+}
+
+.steps__image-container:has(.steps__image_dual)::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 30px;
+  height: 12px;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='35' height='14' fill='none'%3E%3Cpath fill='%236610F2' d='M.07 1.37A1 1 0 0 1 1.93.63l-1.86.74ZM30.7.05a1 1 0 0 1 1.25.65l2.71 8.58a1 1 0 0 1-1.9.6l-2.41-7.63-7.63 2.41a1 1 0 0 1-.6-1.9L30.7.05ZM1.93.63C4.38 6.84 9.18 11.22 14.35 11.9c5.08.68 10.97-2.15 15.76-11.36l1.78.92c-5.02 9.65-11.59 13.25-17.8 12.43C8 13.08 2.7 8.02.07 1.37L1.93.63Z'/%3E%3C/svg%3E");
+  transform: translate(-50%, 50%);
+}

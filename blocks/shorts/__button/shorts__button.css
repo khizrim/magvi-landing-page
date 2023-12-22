@@ -1,0 +1,16 @@
+.shorts__button {
+  min-width: 100%;
+  width: max-content;
+}
+
+@media screen and (min-width: 760px) {
+  .shorts__button {
+    min-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1192px) {
+  .shorts__button {
+    min-width: unset;
+  }
+}

@@ -1,0 +1,5 @@
+.masthead__title {
+  margin: 0 0 16px;
+  color: var(--color-black);
+  font: var(--font-heading-1);
+}

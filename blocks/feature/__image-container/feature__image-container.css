@@ -1,0 +1,6 @@
+@media screen and (min-width: 1192px) {
+  .feature__image-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+}

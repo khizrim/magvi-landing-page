@@ -1,0 +1,32 @@
+:root {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-family-text);
+
+  --font-family-text: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-display: "Montserrat", system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  --font-heading-1: 700 normal 28px /120% var(--font-family-display);
+  --font-heading-2: 700 normal 24px /120% var(--font-family-display);
+  --font-heading-3: 500 normal 24px /120% var(--font-family-display);
+  --font-heading-4: 700 normal 20px /120% var(--font-family-display);
+  --font-body: 400 normal 16px /24px var(--font-family-text);
+  --font-body-20: 400 normal 20px /150% var(--font-family-text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-white: #fff;
+  --color-complementary: #dee2e6;
+  --color-black: #000;
+  --color-accent: #6610f2;
+  --color-accent-hover: #520dc2;
+  --color-accent-light: #f5efff;
+}
+
+@media screen and (min-width: 760px) {
+  :root {
+    --font-heading-1: 700 normal 50px /120% var(--font-family-display);
+    --font-heading-2: 700 normal 32px /120% var(--font-family-display);
+  }
+}

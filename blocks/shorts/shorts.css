@@ -1,0 +1,10 @@
+.shorts {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1192px) {
+  .shorts {
+    align-items: center;
+  }
+}

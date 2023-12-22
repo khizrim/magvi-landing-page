@@ -1,0 +1,5 @@
+.steps__image {
+  display: inline-flex;
+  max-width: 100%;
+  height: auto;
+}

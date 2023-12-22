@@ -1,0 +1,11 @@
+.button_primary {
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+@media (hover: hover) {
+  .button_primary:hover {
+    background: var(--color-accent-hover);
+  }
+}

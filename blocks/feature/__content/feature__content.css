@@ -1,0 +1,26 @@
+.feature__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 616px;
+}
+
+.feature__content > .feature__highlights {
+  display: none;
+}
+
+@media screen and (min-width: 1192px) {
+  .feature__content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    max-width: 100%;
+  }
+
+  .feature__content > .feature__highlights {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+  }
+}

@@ -1,0 +1,5 @@
+.masthead__sample-images {
+  display: flex;
+
+  gap: 12px;
+}

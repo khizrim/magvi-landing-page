@@ -1,0 +1,22 @@
+@media screen and (min-width: 1192px) {
+  .masthead__upload {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    border: 2px solid var(--color-complementary);
+    border-radius: 32px;
+    background: var(--color-accent-light);
+  }
+
+  .masthead__upload::before {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 134px;
+    height: 22px;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='142' height='44' fill='none'%3E%3Cpath fill='%236610F2' d='M1.82 32.26a3.5 3.5 0 1 0 4.36 5.48l-4.36-5.48Zm136.8 6.19a3.5 3.5 0 0 0 2.83-4.06l-5.5-31.02a3.5 3.5 0 0 0-6.9 1.22l4.9 27.57-27.58 4.89a3.5 3.5 0 1 0 1.22 6.9l31.02-5.5Zm-132.44-.7c20.14-16 74.5-38.55 129.81.12l4.01-5.74C81.33-8.88 23.52 15.04 1.82 32.26l4.36 5.48Z'/%3E%3C/svg%3E");
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,12 @@
+.footer__link {
+  color: #6c757d;
+  text-decoration: none;
+  font: var(--font-body);
+  font-size: 14px;
+}
+
+@media (hover: hover) {
+  .footer__link:hover {
+    color: var(--color-accent-hover);
+  }
+}

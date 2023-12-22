@@ -1,0 +1,12 @@
+.feature__highlight {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: var(--color-black);
+  font: var(--font-body);
+}
+
+.feature__highlight span:first-child {
+  color: var(--color-black);
+  font: var(--font-heading-3);
+}

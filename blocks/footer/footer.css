@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  margin: auto;
+  padding: 10px 12px 30px;
+  max-width: 1140px;
+  border-top: 1px solid var(--color-complementary);
+}
+
+.footer__link {
+  color: #6c757d;
+  text-decoration: none;
+  font: var(--font-body);
+  font-size: 14px;
+}
+
+@media screen and (min-width: 760px) {
+  .footer {
+    padding-bottom: 10px;
+  }
+}
+
+@media (hover: hover) {
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .footer__link:hover {
+    color: var(--color-accent-hover);
+  }
+}

@@ -1,0 +1,5 @@
+.feature__link {
+  color: var(--color-accent);
+  text-decoration: none;
+  font: var(--font-body);
+}

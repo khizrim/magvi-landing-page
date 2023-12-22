@@ -1,0 +1,5 @@
+.feature__title {
+  margin: 0 0 12px;
+  color: var(--color-black);
+  font: var(--font-heading-2);
+}

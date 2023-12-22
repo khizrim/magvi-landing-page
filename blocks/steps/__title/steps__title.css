@@ -1,0 +1,5 @@
+.steps__title {
+  margin: 0 0 4px;
+  color: var(--color-black);
+  font: var(--font-heading-4);
+}

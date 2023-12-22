@@ -1,0 +1,25 @@
+.arrow-link {
+  display: flex;
+  align-items: center;
+  color: var(--color-accent);
+  text-decoration: none;
+  font: var(--font-body);
+
+  gap: 4px;
+}
+
+.arrow-link::after {
+  width: 16px;
+  height: 16px;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'%3E%3Cpath fill='%236610F2' fill-rule='evenodd' d='M4.65 1.65a.5.5 0 0 1 .7 0l6 6a.5.5 0 0 1 0 .7l-6 6a.5.5 0 0 1-.7-.7L10.29 8 4.65 2.35a.5.5 0 0 1 0-.7Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+@media (hover: hover) {
+  .arrow-link:hover {
+    color: var(--color-accent-hover);
+  }
+
+  .arrow-link::after:hover {
+    color: var(--color-accent-hover);
+  }
+}

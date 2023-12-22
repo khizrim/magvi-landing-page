@@ -1,0 +1,19 @@
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  gap: 8px;
+}
+
+.nav__list a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 760px) {
+  .nav__list {
+    gap: 0;
+  }
+}

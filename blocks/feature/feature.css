@@ -1,0 +1,15 @@
+.feature {
+  display: grid;
+
+  gap: 24px;
+}
+
+@media screen and (min-width: 1192px) {
+  .feature {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .feature > .feature__highlights {
+    display: none;
+  }
+}
