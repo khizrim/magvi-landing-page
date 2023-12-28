@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 1192px) {
+@media screen and (min-width: 992px) {
   .shorts {
     align-items: center;
   }

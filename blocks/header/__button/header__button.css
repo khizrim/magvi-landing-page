@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 576px) {
   .header__button {
     display: block;
   }

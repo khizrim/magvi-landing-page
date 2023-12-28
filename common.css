@@ -18,13 +18,13 @@
   -moz-osx-font-smoothing: grayscale;
   --color-white: #fff;
   --color-complementary: #dee2e6;
-  --color-black: #000;
+  --color-black: #212529;
   --color-accent: #6610f2;
   --color-accent-hover: #520dc2;
   --color-accent-light: #f5efff;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 576px) {
   :root {
     --font-heading-1: 700 normal 50px /120% var(--font-family-display);
     --font-heading-2: 700 normal 32px /120% var(--font-family-display);

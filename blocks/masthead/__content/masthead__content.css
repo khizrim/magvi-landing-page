@@ -4,12 +4,25 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1192px) {
+.masthead__content .masthead__upload-btn {
+  min-width: 100%;
+  width: max-content;
+}
+
+@media screen and (min-width: 576px) {
+  .masthead__content .masthead__upload-btn {
+    min-width: auto;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
   .masthead__content {
     margin-top: 35px;
   }
 
   .masthead__content .masthead__upload-btn {
+    min-width: auto;
     display: none;
   }
 }

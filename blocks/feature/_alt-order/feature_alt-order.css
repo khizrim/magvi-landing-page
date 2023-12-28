@@ -1,4 +1,4 @@
-@media screen and (min-width: 1192px) {
+@media screen and (min-width: 992px) {
   .feature_alt-order {
     grid-template-columns: 1fr 3fr;
   }

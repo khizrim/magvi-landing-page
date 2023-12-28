@@ -5,13 +5,13 @@
   gap: 24px;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 576px) {
   .masthead {
     margin-top: 40px;
   }
 }
 
-@media screen and (min-width: 1192px) {
+@media screen and (min-width: 992px) {
   .masthead {
     margin-top: 85px;
   }

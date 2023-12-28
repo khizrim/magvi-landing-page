@@ -4,7 +4,7 @@
   max-height: 80vh;
 }
 
-@media screen and (min-width: 1192px) {
+@media screen and (min-width: 992px) {
   .youtube-popup__frame {
     width: 630px;
     height: 1120px;
